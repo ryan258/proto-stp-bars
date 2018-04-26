@@ -1,0 +1,42 @@
+.card {
+  .link-map {
+    margin-left: auto;
+  }
+  &-section {
+    li {
+      padding: 0px 0 12px;
+      border-top: 1px solid;
+      margin-top: 0;
+      font-size: 12px;
+    }
+    .price {
+      font-weight: bold;
+      // width: 35px;
+      // text-align: center;
+      // display: inline-block;
+      // clear: right;
+    }
+    .fas {
+      text-align: center;
+      width: 25px;
+      padding: 5px 0 5px;
+      margin-bottom: 5px;
+    }
+    .fa {
+      &-beer {
+        color: white;
+        background: brown;
+      }
+      &-wine-glass {
+        color: white;
+        background: red;
+      }
+      &-glass-martini {
+      }
+      &-utensils {
+        color: white;
+        background: orange;
+      }
+    }
+  }
+}
